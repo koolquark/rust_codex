@@ -28,5 +28,8 @@ fn main() {
        println!("{:?} == {:?}", ex_mut, *rp_mut);
     }
 
+    // null pointer ; deferencing null pointer leaves undefined behaviour
+    let null_ptr: *const () = ptr::null();
+    let _ = null_ptr;
     
 }
