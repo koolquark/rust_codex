@@ -1,2 +1,2 @@
 # rust_codex
-Rust Examples - Learning rust
+Code examples to assit learning rust.
