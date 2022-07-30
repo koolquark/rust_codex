@@ -6,5 +6,3 @@
 - ```?Sized``` : optionally complying the trait bound ```Sized````
 - ```Rc<T>``` : single threaded reference counted safe pointer to a varaible of type T
 
-## What-for-What 
-- Shared ownership of a value allocated in the heap : Use ```Rc<T>````
