@@ -21,6 +21,25 @@ fn hello_takes_amp_str(name: &str) {
     println!("Hello, {name}");
 }
 
+trait SomeTrait {
+    fn some_behav(&self) -> &Self {
+        &self
+    }
+}
+
+struct Box3<T>(T);
+
+impl<T> Deref for Box3<T> {
+    type Target = T;
+    fn deref(&self) -> &Self::Target {
+        &self.0
+    }
+}
+
+fn takes_box3_ref(b: &str) {
+    println!("{}", b);
+}
+
 fn main() {
     let x = 5;
     let y = MyBox::new(9);
@@ -46,4 +65,8 @@ fn main() {
     // m.deref() -->  s : &String
     // Since String implements deref
     // s.deref() --> k: &str
+
+    // Deref Coercion example 2
+    let boxv = Box3("Box3");
+    takes_box3_ref(&boxv);
 }

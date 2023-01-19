@@ -1,9 +1,5 @@
 ## Links
 
-- https://sharksforarms.dev/posts/neovim-rust/
-- https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/
-- https://learnvimscriptthehardway.stevelosh.com/chapters/42.html
-
 ## Topics
 
 - extern crate
