@@ -1,7 +1,8 @@
 pub struct Vec<T> {
-    ptr: *mut T, s
+    ptr: *mut T,
     cap: usize, 
     len: usize
 }
 
-s
+
+

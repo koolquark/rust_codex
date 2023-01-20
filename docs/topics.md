@@ -1,4 +1,8 @@
 ## Links
+- RFC Book 
+  - https://rust-lang.github.io/rfcs/0387-higher-ranked-trait-bounds.html
+- RustC Book 
+  - https://rustc-dev-guide.rust-lang.org/traits/hrtb.html
 
 ## Techniques for Learning and Understanding Rust Code
 
