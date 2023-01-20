@@ -1,10 +1,10 @@
 ## Links
 
-## Techniques for Learning and Uderstanding Rust Code
+## Techniques for Learning and Understanding Rust Code
 
 - If the following is not important for you, don't learn Rust
   - Need a safe and robust implementation of an application
-  - Need resonable performance along with the above one.
+  - Need reasonable performance along with the above one.
 - doc.rs can show source code. Always use this feature to see
   source code
 - doc.rs can show many versions of same lib, use right versions
@@ -12,8 +12,8 @@
 - Always understand who is the owner of a value, how ownership is
   getting transferred.
 - Always look into the lifetimes involved.
-- Read code extensively and undestand the patterns used by professional developers
--
+- Read code extensively and understand the patterns used by professional developers
+- Read Rust RFCs to understand design choices. 
 
 ## Topics
 
@@ -56,6 +56,17 @@
 - Deref
 - AsRef
 - Deref Coercion
+- Referenced and Pointers
+
+### References and Pointers
+- https://stackoverflow.csom/questions/62232753/what-are-the-differences-between-a-pointer-and-a-reference-in-rust
+- Don't see & and * the C or C++ way.
+  - Meanings are different here s
+- Types of references and pointerss
+  - Shared reference : &T 
+  - Mutable Reference: &mut T 
+  - Const Pointer : *const 
+  - Mutable Pointer : *mut 
 
 ### Deref
 
