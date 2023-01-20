@@ -1,5 +1,20 @@
 ## Links
 
+## Techniques for Learning and Uderstanding Rust Code
+
+- If the following is not important for you, don't learn Rust
+  - Need a safe and robust implementation of an application
+  - Need resonable performance along with the above one.
+- doc.rs can show source code. Always use this feature to see
+  source code
+- doc.rs can show many versions of same lib, use right versions
+- Use code navigation provided by editor
+- Always understand who is the owner of a value, how ownership is
+  getting transferred.
+- Always look into the lifetimes involved.
+- Read code extensively and undestand the patterns used by professional developers
+-
+
 ## Topics
 
 - extern crate
