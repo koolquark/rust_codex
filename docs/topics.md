@@ -1,8 +1,16 @@
 ## Links
-- RFC Book 
+
+- RFC Book
   - https://rust-lang.github.io/rfcs/0387-higher-ranked-trait-bounds.html
-- RustC Book 
+- RustC Book
   - https://rustc-dev-guide.rust-lang.org/traits/hrtb.html
+- Rust By Example Book
+
+### Readings - Blogs, Videos, SO etc
+
+- Implementing Iterator for a struct type
+- https://stackoverflow.com/questions/30218886/how-to-implement-iterator-and-intoiterator-for-a-simple-struct
+-
 
 ## Techniques for Learning and Understanding Rust Code
 
@@ -17,7 +25,7 @@
   getting transferred.
 - Always look into the lifetimes involved.
 - Read code extensively and understand the patterns used by professional developers
-- Read Rust RFCs to understand design choices. 
+- Read Rust RFCs to understand design choices.
 
 ## Topics
 
@@ -63,14 +71,15 @@
 - Referenced and Pointers
 
 ### References and Pointers
+
 - https://stackoverflow.csom/questions/62232753/what-are-the-differences-between-a-pointer-and-a-reference-in-rust
-- Don't see & and * the C or C++ way.
+- Don't see & and \* the C or C++ way.
   - Meanings are different here s
 - Types of references and pointerss
-  - Shared reference : &T 
-  - Mutable Reference: &mut T 
-  - Const Pointer : *const 
-  - Mutable Pointer : *mut 
+  - Shared reference : &T
+  - Mutable Reference: &mut T
+  - Const Pointer : \*const
+  - Mutable Pointer : \*mut
 
 ### Deref
 
