@@ -9,7 +9,9 @@
 ### Readings - Blogs, Videos, SO etc
 
 - Implementing Iterator for a struct type
-- https://stackoverflow.com/questions/30218886/how-to-implement-iterator-and-intoiterator-for-a-simple-struct
+  - https://stackoverflow.com/questions/30218886/how-to-implement-iterator-and-intoiterator-for-a-simple-struct
+- Implementing Iterator
+  - https://aloso.github.io/2021/03/09/creating-an-iterator
 -
 
 ## Techniques for Learning and Understanding Rust Code
